@@ -1,51 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Nom de ton ami</title>
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      max-width: 900px;
-      margin: auto;
-      background: #ffffff;
-      color: #202122;
-    }
-    h1 {
-      border-bottom: 1px solid #a2a9b1;
-    }
-    .infobox {
-      float: right;
-      width: 250px;
-      background: #f8f9fa;
-      border: 1px solid #a2a9b1;
-      padding: 10px;
-      margin-left: 20px;
-      font-size: 14px;
-    }
-    a {
-      color: #0645ad;
-      text-decoration: none;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Lisa Salvetat</title>
+
+<style>
+body {
+    font-family: 'Linux Libertine', Georgia, Times, serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CONTENU GAUCHE */
+.content {
+    width: 70%;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    border-bottom: 1px solid #a2a9b1;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* INFOBOX DROITE */
+.infobox {
+    width: 30%;
+    margin-left: 20px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 14px;
+}
+
+.infobox-title {
+    background-color: #cedff2;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.infobox img {
+    width: 100%;
+    display: block;
+}
+
+.infobox table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.infobox td {
+    padding: 6px;
+    vertical-align: top;
+}
+
+.label {
+    font-weight: bold;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Nom de ton ami</h1>
+<div class="container">
 
-<div class="infobox">
-  <p><strong>Nom :</strong> Ton ami</p>
-  <p><strong>Date de naissance :</strong> ...</p>
-  <p><strong>Activité :</strong> ...</p>
-</div>
+<!-- GAUCHE -->
+<div class="content">
 
-<p><strong>Nom de ton ami</strong> est une personne remarquable connue pour son humour légendaire et ses talents exceptionnels dans ...</p>
+<img src="logo.png" alt="Wikipedia" class="logo">
+
+<h1>Lisa Salvetat</h1>
 
 <h2>Biographie</h2>
-<p>Raconte son histoire de manière drôle ou stylée.</p>
 
-<h2>Anecdotes</h2>
-<p>Ajoute des souvenirs, blagues, moments marquants 😄</p>
+<p>
+Lisa Salvetat, née le 1er février 2003 à Lyon (France), est une jeune diplômée qui cherche encore sa voie en l'an 2026.
+Née d'un père commercial et d'une mère infirmière, elle grandit aux côtés de ses deux grands frères, Lucas et Hugo Salvetat dans la ville de Genas.
+Son enfance est bercée par l'amour de sa famille, ce qui la suivra toute sa vie.
+</p>
+
+<p>
+Elle fait sa scolarité jusqu'au collège à Genas où elle rencontre son groupe d'amis les "Cabez" composé de Marjo, Maroule et Loux.
+Ensemble, ils grandissent et évoluent tout en se soutenant.
+</p>
+
+<p>
+Elle passe ensuite son bac dans le lycée Charlie Chaplin à Décines durant l'époque du Covid-19.
+Elle étudie ensuite la communication à l'université Lyon 2.
+</p>
+
+<p>
+Fraichement diplômée, elle débute sa carrière à la mairie de Genas où elle occupe différents postes au sein de différents services.
+</p>
+
+<p>
+Actuellement, nous n'avons pas d'informations supplémentaires à vous communiquer mais nous ne manquerons pas de compléter cette page dès réception de son actualité.
+</p>
+
+</div>
+
+<!-- DROITE -->
+<div class="infobox">
+
+<div class="infobox-title">Lisa Salvetat</div>
+
+<img src="photo.jpg" alt="Lisa Salvetat">
+
+<table>
+<tr>
+<td class="label">Nom</td>
+<td>Lisa Salvetat</td>
+</tr>
+
+<tr>
+<td class="label">Date de naissance</td>
+<td>1er février 2003</td>
+</tr>
+
+<tr>
+<td class="label">Activité</td>
+<td>Diplômée en communication, spécialisée en médiation culturelle</td>
+</tr>
+</table>
+
+</div>
+
+</div>
 
 </body>
 </html>
